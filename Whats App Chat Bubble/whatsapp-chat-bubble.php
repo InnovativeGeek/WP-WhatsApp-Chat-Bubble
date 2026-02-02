@@ -4,7 +4,7 @@
 Plugin Name: WhatsApp Chat Bubble
 Description: Adds a WhatsApp chat bubble to your website.
 Version: 1.0
-Author: <a href="https://www.christianmartell.com" target="_blank" rel="noopener noreferrer">Innovative Geek</a>
+Author: <a href="https://www.theinnovativegeek.com" target="_blank" rel="noopener noreferrer">Innovative Geek</a>
 */
 
 // Add settings page to admin menu
@@ -64,6 +64,7 @@ function whatsapp_chat_bubble_enqueue_styles() {
     wp_enqueue_style('whatsapp-chat-bubble-style', plugin_dir_url(__FILE__) . 'css/whatsapp-bubble.css');
 }
 add_action('wp_enqueue_scripts', 'whatsapp_chat_bubble_enqueue_styles');
+
 
 
 ?>
